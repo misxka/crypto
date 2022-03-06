@@ -48,3 +48,8 @@ export const splitMiddle = (s: string): string[] => {
 };
 
 export const concatNumbers = (left: number, right: number, length: number): string => left.toString(2).padStart(length, '0') + right.toString(2).padStart(length, '0');
+
+export const getStringFromBinary = (result: string): string =>
+  splitChunks(result)
+    .map(elem => String.fromCharCode(parseInt(elem, 2)))
+    .join('');

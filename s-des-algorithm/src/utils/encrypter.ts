@@ -25,8 +25,8 @@ export class Encrypter {
 
   public decrypt(): string {
     const chunks = splitChunks(this.text);
-    const encryptedChunks = chunks.map(this.decryptChunk);
-    return encryptedChunks.reduce((prev, current) => prev + current, '');
+    const decryptedChunks = chunks.map(this.decryptChunk);
+    return decryptedChunks.reduce((prev, current) => prev + current, '');
   }
 
   private encryptChunk(chunk: string): string {
