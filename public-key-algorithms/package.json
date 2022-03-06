@@ -1,0 +1,23 @@
+{
+  "name": "public-key-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "rsa": "bin/rsa/index.js",
+    "euclid-key-calc": "bin/euclid-key-calc/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikhail Viaryha",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.51"
+  }
+}
