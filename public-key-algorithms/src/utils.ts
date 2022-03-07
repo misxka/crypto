@@ -90,3 +90,14 @@ export const getStringFromCharCodes = (codes: bigInt.BigInteger[]) => String.fro
 export const encrypt = (codes: number[], key: bigInt.BigInteger, r: bigInt.BigInteger) => codes.map(code => bigInt(code).modPow(key, r));
 
 export const decrypt = (codes: bigInt.BigInteger[], key: bigInt.BigInteger, r: bigInt.BigInteger) => codes.map(code => code.modPow(key, r));
+
+export const getStringFromBigints = (arr: bigInt.BigInteger[]): string => {
+  return arr.reduce((prev, cur) => prev + cur.toString() + 'n', '');
+};
+
+export const getBigIntsFromString = (s: string): bigInt.BigInteger[] => {
+  return s
+    .split('n')
+    .map(elem => bigInt(elem))
+    .slice(0, -1);
+};

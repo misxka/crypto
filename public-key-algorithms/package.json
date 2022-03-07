@@ -5,6 +5,7 @@
   "main": "bin/index.js",
   "bin": {
     "rsa": "bin/rsa/index.js",
+    "rsa-keygen": "bin/rsa-keygen/index.js",
     "euclid-key-calc": "bin/euclid-key-calc/index.js"
   },
   "scripts": {
@@ -15,9 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.21",
+    "@types/yargs": "^17.0.9",
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "big-integer": "^1.6.51"
+    "big-integer": "^1.6.51",
+    "chalk": "^4.1.0",
+    "yargs": "^17.3.1"
   }
 }
