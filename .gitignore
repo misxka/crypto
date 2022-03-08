@@ -105,3 +105,6 @@ dist
 
 # bin folder
 bin/
+
+# .vscode folder
+.vscode/
