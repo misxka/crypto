@@ -5,7 +5,7 @@ import yargs from 'yargs';
 
 import { generateRandomPrimes, getOpenedExp, getClosedExp } from '../utils';
 
-const options = yargs(process.argv).usage('Usage: -n <name>').parseSync();
+const options = yargs(process.argv).parseSync();
 
 const { p, q } = generateRandomPrimes(512);
 const r = p.multiply(q);

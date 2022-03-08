@@ -12,7 +12,6 @@ import { createCliOutput } from './utils/output-formatter';
 import { encryptFileData } from './utils/file-handler';
 
 const options = yargs(process.argv)
-  .usage('Usage: -n <name>')
   .options({
     k: { alias: 'key', describe: 'Input key (10 bits length)', type: 'string', demandOption: true },
     v: { alias: 'value', describe: 'Value to be encrypted/decrypted', type: 'string' },

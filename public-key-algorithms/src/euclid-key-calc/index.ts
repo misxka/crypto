@@ -7,7 +7,6 @@ import yargs from 'yargs';
 import { getClosedExp } from '../utils';
 
 const options = yargs(process.argv)
-  .usage('Usage: -n <name>')
   .options({
     p: { describe: 'p-key', type: 'string', demandOption: true },
     q: { describe: 'q-key', type: 'string', demandOption: true },

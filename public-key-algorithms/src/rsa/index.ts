@@ -10,7 +10,6 @@ import bigInt from 'big-integer';
 import { encryptFileData } from './file-handler';
 
 const options = yargs(process.argv)
-  .usage('Usage: -n <name>')
   .options({
     v: { alias: 'value', describe: 'Value to be encrypted/decrypted', type: 'string' },
     a: { alias: 'action', describe: 'Action to be done', choices: ['encrypt', 'decrypt'] as const, demandOption: true },
