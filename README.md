@@ -1,6 +1,6 @@
 # crypto
 
-Command line cryptographic app
+Command line cryptographic apps
 
 ## s-des-algorithm CLI App
 To run the application do the following steps:
@@ -59,3 +59,18 @@ euclid-key-calc -p 3 -q 11 -e 7
 _Result:_
 
 ![image](https://user-images.githubusercontent.com/57208499/157203156-a91db928-3ff3-4280-bba0-200cf30bc9f4.png)
+
+
+## murmur-hash-3 (MurmurHash3 hash function)
+To run the application do the following steps:
+
+1. Type `npm run build` in command line to build the project.
+2. Type `npm install -g` to install script globally. Now you can run it from anywhere with just typing `murmur-hash-3` followed with command line arguments.
+
+### Calculate hash value
+```
+murmur-hash-3 -v "Hello World!" -s 21
+```
+
+### Result
+![image](https://user-images.githubusercontent.com/57208499/157228384-e7a491f1-d185-438d-ad13-87418a3be612.png)
