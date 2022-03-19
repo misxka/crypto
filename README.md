@@ -69,7 +69,7 @@ To run the application do the following steps:
 
 ### Calculate hash value
 ```
-murmur-hash-3 -v "Hello World!" -s 21
+murmur-hash-3 -v "Hello World!" -s 21 -t cli
 ```
 
 ### Result
