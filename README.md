@@ -74,3 +74,18 @@ murmur-hash-3 -v "Hello World!" -s 21 -t cli
 
 ### Result
 ![image](https://user-images.githubusercontent.com/57208499/157228384-e7a491f1-d185-438d-ad13-87418a3be612.png)
+
+
+## digital-signature (RSA & MurmurHash3 - based)
+
+### Result
+
+<img src="https://user-images.githubusercontent.com/57208499/159134037-8880a17d-1d39-4eea-8ebc-cff168b9d26f.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/57208499/159133830-bc56b02c-ef9c-4ca4-b1c9-d0f3881a0bc5.png" width="50%" height="50%">
+
+#### Example of successful check
+<img src="https://user-images.githubusercontent.com/57208499/159133882-0b18a127-b197-448e-b008-5d9965499c0d.png" width="50%" height="50%">
+
+#### Example of failed check
+<img src="https://user-images.githubusercontent.com/57208499/159133899-82fa99d1-f280-4f72-bb40-efad6f54600a.png" width="50%" height="50%">
+
