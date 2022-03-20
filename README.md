@@ -89,3 +89,11 @@ murmur-hash-3 -v "Hello World!" -s 21 -t cli
 #### Example of failed check
 <img src="https://user-images.githubusercontent.com/57208499/159133899-82fa99d1-f280-4f72-bb40-efad6f54600a.png" width="50%" height="50%">
 
+
+## lsb (Least Significant Bit)
+
+### Result
+
+<img src="https://user-images.githubusercontent.com/57208499/159171939-ee337e32-2daf-455f-9f07-56551890fa3e.png" width="50%" height="50%">
+
+<img src="https://user-images.githubusercontent.com/57208499/159172181-d24c3b11-dc5d-43d0-b496-93815ca3f5e2.png" width="50%" height="50%">
